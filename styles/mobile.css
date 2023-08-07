@@ -5,8 +5,8 @@
     --fundo-claro: rgb(255, 251, 0);
     --fonte-clara: rgb(255, 255, 255);
     --fonte-escura: rgb(255, 255, 255);
-    --hover-claro: rgb(99, 144, 186);
-    --hover-escuro: rgb(99, 144, 186);
+    --hover-claro: rgba(26, 54, 214, 0.840);
+    --hover-claro: rgba(26, 54, 214, 0.840);
 }
 a {
     text-decoration: none;
