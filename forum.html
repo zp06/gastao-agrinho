@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaFuturo</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/destop.css">
+    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/tablet.css">
+    <link rel="stylesheet" href="./styles/tv.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img id="logo" src="./img/logop.png" alt=""></a>
+        <input type="checkbox" class="side-menu" id="side-menu">
+        <label for="side-menu" class="hamb"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="artigos.html">Artigos</a></li>
+                <li><a href="orientacoes.html">Orientações</a></li>
+                <li><a href="ferramentas.html">Ferramentas</a></li>
+                <li><a href="inspiracao.html">Inspiração</a></li>
+                <li><a href="forum.html">Fórum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="titulo">Fórum de Discussão</div>
+    <div class="subtitulo">Espaço onde estudantes possam interagir, fazendo perguntas, deixando ideias, pedindo auxílio, ajudando os outros.</div>
+
+<br>
+<br>
+
+   <section class="conteudo">
+        <div>
+          <img class="imgpost" src="img/forum.png" alt="Fórum de Discussão">
+        </div>
+        
+        <div class="form">
+            <form name="form">
+                <h1>Entre em contato</h1>
+                <br>
+                <label for="nome">Nome</label>
+                <input type="text" id="nomeid" placeholder="Fulano da Silva" required="required" name="nome" />
+                
+                <label for="fone">Fone</label>
+                <input type="tel" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" />
+                
+                <label for="email">Email</label>
+                <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+                
+                <label for="comentario">Comentario</label>
+                <textarea placeholder="Deixe sua dúvida, sugestão ou crítica"></textarea>
+              
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+              </form>
+        </div>
+   </section>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <footer class="rodape">
+     © 2023 EducaFuturo, Edson Noguchi. Todos os direitos reservados.
+   </footer>
+</body>
+</html>
